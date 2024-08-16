@@ -5,8 +5,8 @@ if [[ $1 = "--help" || $1 = "-h" ]]; then
     exit 0
 fi
 
-# Exercise 1 of the commit section
-touch folder1/file2.txt
-echo "Add a new file to the track" > folder1/file2.txt
-echo "More changes to an existing file" >> folder2/file2.txt
-rm folder2/file1.txt
+# Exercise 2 of the commit section
+sed -i 's/world/World/g' folder2/file2.txt
+cat << EOF  >> folder2/file2.txt
+Lorem ipsum odor amet, consectetuer adipiscing elit. Purus enim integer molestie libero sociosqu. Turpis ad bibendum faucibus, inceptos torquent id. Ornare tempor luctus ad; ridiculus ut efficitur. Etiam nibh sed arcu dolor, metus rutrum quam. Aliquet commodo blandit blandit nascetur, nostra dis.
+EOF
