@@ -1,2 +1,3 @@
 hello world!
 More changes to an existing file
+Lorem ipsum odor amet, consectetuer adipiscing elit. Purus enim integer molestie libero sociosqu. Turpis ad bibendum faucibus, inceptos torquent id. Ornare tempor luctus ad; ridiculus ut efficitur. Etiam nibh sed arcu dolor, metus rutrum quam. Aliquet commodo blandit blandit nascetur, nostra dis.
